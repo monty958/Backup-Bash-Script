@@ -237,7 +237,7 @@ then
                                 cp -r $currentDir/$folderName $dest/$folderName
                                 echo "Backup Success"
                                 echo "Your file is $folderName inside $dest"
-
+ 
                         fi
                 fi
 		elif [[$yesORno == "No" || $yesORno == "no"]]
